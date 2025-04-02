@@ -41,7 +41,7 @@ graph TD;
     E --> E1[Prepare review documents];
     E1 --> E2[Conduct review meeting];
     E2 --> E3[Address customer feedback];
-    E --> F[Factory Acceptance Test (FAT) with end user];
+    E["Factory Acceptance Test \(FAT\) with end user"];
     F --> F1[Prepare for FAT];
     F1 --> F2[Conduct FAT];
     F2 --> F3[Document FAT results];
